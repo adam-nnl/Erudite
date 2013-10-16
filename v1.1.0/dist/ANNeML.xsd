@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NNETWORK">
+    <xs:complexType>
+      <xs:sequence>
+		<xs:element minOccurs="1" maxOccurs="unbounded" ref="SUBNET" />
+      </xs:sequence>
+      <xs:attribute name="NNET_NAME" type="xs:string" use="required" />
+      <xs:attribute name="NNET_V1" type="xs:double" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SUBNET">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="LAYER" />
+      </xs:sequence>
+      <xs:attribute name="SNET_NAME" type="xs:string" use="required" />
+	  <xs:attribute name="ADJUST_LOCK" type="xs:integer" use="required" />	  
+      <xs:attribute name="NNET_V2" type="xs:double" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LAYER">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="NEURODE" />
+      </xs:sequence>
+      <xs:attribute name="LAYER_NAME" type="xs:string" use="required" />
+      <xs:attribute name="TRANSFER_FUNCTION" type="xs:integer" use="required" />
+      <xs:attribute name="NNET_V3" type="xs:double" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NEURODE">
+    <xs:complexType>
+    	<xs:sequence>
+    		<xs:element minOccurs="1" maxOccurs="unbounded" ref="SYNAPSE" />
+    	</xs:sequence>
+    	<xs:attribute name="BIAS" type="xs:double" use="required" />
+    	<xs:attribute name="N_ID" type="xs:string" use="required" />
+    	<xs:attribute name="ACTIVE" type="xs:integer" use="required" />
+    	<xs:attribute name="ACTIVITY" type="xs:double" use="required" />
+    	<xs:attribute name="NNET_V4" type="xs:double" use="required" />
+    	<xs:attribute name="CNAME" type="xs:string" use="optional" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SYNAPSE">
+    <xs:complexType>
+    	<xs:attribute name="ORG_NEURODE" type="xs:string" use="required" />
+    	<xs:attribute name="WEIGHT" type="xs:double" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+<!-- 
+Copyright (c) 2013 Adam Lara
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License. 
+http://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+See LICENSE file and for full terms or: http://creativecommons.org/licenses/by-sa/3.0/legalcode
+-->
