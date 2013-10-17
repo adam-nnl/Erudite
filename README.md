@@ -5,4 +5,9 @@ Erudite neural network suite for processing and training back-propogation neural
 <a href="https://github.com/adam-nnl/ANNeML" target="_blank">ANNeML XML</a>. Written in and
 requires <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">Java</a>.
 
+=======
+
+Erudite is intended to be used with neural network files written in ANNeML v1 XML. The application can train the neural networks
+using manually entered training sets or premade .csv training sets. Erudite can save the resulting neural networks back to ANNeML
+XML. Erudite can also processing neural networks with test data, either entered manually or from a premade .csv test set.
 
