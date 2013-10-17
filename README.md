@@ -1,4 +1,4 @@
-Erudite
+![Erudite logo](http://adam-lara.com/wp-content/uploads/2013/10/erudite-logo.png)
 =======
 
 Erudite neural network suite for processing and training back-propogation neural networks written with 
