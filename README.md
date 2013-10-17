@@ -11,3 +11,4 @@ Erudite is intended to be used with neural network files written in ANNeML v1 XM
 using manually entered training sets or premade .csv training sets. Erudite can save the resulting neural networks back to ANNeML
 XML. Erudite can also processing neural networks with test data, either entered manually or from a premade .csv test set.
 
+<a href="https://github.com/adam-nnl/Erudite/wiki" target="_BLANK">For full documentation see the wiki!</a>
