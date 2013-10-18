@@ -12,3 +12,9 @@ using manually entered training sets or premade .csv training sets. Erudite can 
 XML. Erudite can also processing neural networks with test data, either entered manually or from a premade .csv test set.
 
 <a href="https://github.com/adam-nnl/Erudite/wiki" target="_BLANK">For full documentation see the wiki!</a>
+
+<a href="http://adam-lara.com/erudite-neural-net-suite-one-package/" target="_BLANK">Erudite all-in-one distributable</a>
+
+<a href="http://adam-lara.com/quick-start-guide-for-erudite-neural-network-suite/" target="_BLANK">Quick Start Guide</a>
+
+
