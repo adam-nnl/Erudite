@@ -17,4 +17,6 @@ XML. Erudite can also processing neural networks with test data, either entered 
 
 <a href="http://adam-lara.com/quick-start-guide-for-erudite-neural-network-suite/" target="_BLANK">Quick Start Guide</a>
 
-<a href="https://github.com/adam-nnl/ANNeML/wiki" target="_BLANK">For full ANNeML documentation see the wiki!</a>
+<a href="https://github.com/adam-nnl/ANNeML/wiki" target="_BLANK">Full ANNeML documentation</a>
+
+<a href="https://github.com/adam-nnl/ANNeML-Lab" target="_BLANK">ANNeML-Lab utility</a>
