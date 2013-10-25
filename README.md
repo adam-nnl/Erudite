@@ -9,7 +9,7 @@ requires <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.
 
 Erudite is intended to be used with neural network files written in ANNeML v1 XML. The application can train the neural networks
 using manually entered training sets or premade .csv training sets. Erudite can save the resulting neural networks back to ANNeML
-XML. Erudite can also processing neural networks with test data, either entered manually or from a premade .csv test set.
+XML. Erudite can also process neural networks with test data, either entered manually or from a premade .csv test set.
 
 <a href="https://github.com/adam-nnl/Erudite/wiki" target="_BLANK">For full Erudite documentation see the wiki!</a>
 
